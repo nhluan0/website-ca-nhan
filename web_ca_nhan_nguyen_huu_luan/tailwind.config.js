@@ -7,6 +7,7 @@ export default {
         sm: '0px', // Điểm gãy nhỏ (sm) thường được đặt ở 640px
         md: '768px', // Điểm gãy trung bình (md) thường được đặt ở 768px
         lg: '900px', // Điểm gãy lớn (lg) tùy chỉnh ở 900px
+        lgluan: '1100px', // Điểm gãy lớn (lg) tùy chỉnh ở 900px
         xl: '1280px', // Điểm gãy rất lớn (xl)
         '2xl': '1536px', // Điểm gãy cực lớn (2xl)
       },

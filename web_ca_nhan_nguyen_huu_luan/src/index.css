@@ -8,6 +8,12 @@
   }
 
   h2 {
-    @apply text-xl uppercase;
+    @apply text-xl uppercase font-bold;
+  }
+  h3 {
+    @apply uppercase font-bold;
+  }
+  button {
+    @apply mr-1 w-2 h-2 rounded-full  flex items-center justify-center bg-slate-50;
   }
 }

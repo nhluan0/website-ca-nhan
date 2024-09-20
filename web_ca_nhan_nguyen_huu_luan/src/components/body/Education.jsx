@@ -14,7 +14,7 @@ const Education = () => {
                 item.content.length > 0 &&
                 item?.content.map((it, idx) => {
                   return (
-                    <div className="p-2 text-2xl" key={idx}>
+                    <div className="p-2 text-xl" key={idx}>
                       {it}
                     </div>
                   )

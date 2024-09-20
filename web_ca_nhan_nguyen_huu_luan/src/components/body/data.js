@@ -95,6 +95,6 @@ export const dataProject = [
     Frontend: 'react js, react hook, tailwind css...',
     Backend: '',
     github: 'https://github.com/nhluan0/website-ca-nhan',
-    linkWeb: 'https://nguyenhuuluancv3.netlify.app',
+    linkWeb: 'https://nguyenhuuluancv4.netlify.app',
   },
 ]

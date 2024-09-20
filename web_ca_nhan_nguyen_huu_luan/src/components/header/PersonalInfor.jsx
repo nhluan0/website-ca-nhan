@@ -5,7 +5,7 @@ const PersonalInfor = () => {
         <div className="flex justify-center basis-1/3 p-3 ">
           <img className="h-96 w-auto block" src="/image/anh222.jpg" />
         </div>
-        <div className="basis-2/3 flex flex-col py-4">
+        <div className="basis-2/3 flex flex-col justify-center">
           <h1 className=" uppercase italic ">Nguyễn Hữu Luân</h1>
           <h1 className=" uppercase italic ">Intern fullStack Java web</h1>
           <h1 className=" ">

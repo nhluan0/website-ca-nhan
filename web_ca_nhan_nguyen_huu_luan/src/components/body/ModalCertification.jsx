@@ -1,4 +1,5 @@
 import { IoMdCloseCircleOutline } from 'react-icons/io'
+
 const ModalCertification = ({ dataModal, hanleCloseModal }) => {
   return (
     <>

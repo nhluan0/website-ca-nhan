@@ -22,11 +22,11 @@ const SlideCertification = () => {
   const handleOpenModal = (id) => {
     setOpenModal(true)
     const data = dataCertification.filter((e) => e.id === id)
-    let halfHeight = ref.current.getBoundingClientRect().height * 1.5
+    let pos = ref.current.getBoundingClientRect().top
 
     // cuon to top
     window.scrollTo({
-      top: halfHeight,
+      top: pos,
       behavior: 'smooth',
     })
     setDataModal(data[0])
@@ -45,7 +45,7 @@ const SlideCertification = () => {
       )}
 
       <div className="relative overflow-hidden w-full bg-slate-400">
-        <div className="relative flex justify-center " ref={ref}>
+        <div className="relative flex justify-center ">
           {dataCertification &&
             dataCertification.length > 0 &&
             dataCertification.map(
@@ -65,7 +65,9 @@ const SlideCertification = () => {
                     >
                       <img src={item.src} alt={item.subject} className="w-96" />
                     </div>
-                    <h3 className="text-center">{item.subject}</h3>
+                    <h3 className="text-center" ref={ref}>
+                      {item.subject}
+                    </h3>
                     {item?.gpa && (
                       <h3 className="text-center">GPA: {item?.gpa}</h3>
                     )}
